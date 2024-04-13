@@ -22,7 +22,7 @@ public class ResultActivity extends AppCompatActivity {
 
         // 显示分数和正确率
         TextView textViewScore = findViewById(R.id.textViewScore);
-        textViewScore.setText("得分: " + score + " / " + totalQuestions);
+        textViewScore.setText("score: " + score + " / " + totalQuestions);
 
     }
 }
