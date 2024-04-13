@@ -99,7 +99,7 @@ public class QuestionActivity extends AppCompatActivity {
         //题干
         question3.setQuestionStem("3+3=？");
         //选项
-        question3.setOptions(new String[]{"3","5","9"});
+        question3.setOptions(new String[]{"3","5","6"});
         //正确的答案
         question3.setCorrectOptions("2");
         //把题目添加到集合中
