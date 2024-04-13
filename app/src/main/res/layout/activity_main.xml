@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- textViewTitle -->
+    <!-- textViewTitle -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIT305 Quiz APP"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- textViewEnterName -->
+    <TextView
+        android:id="@+id/textViewEnterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:text="Enter Your name:"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"/>
+
+    <!-- editTextName -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_toEndOf="@id/textViewEnterName"
+        android:layout_marginStart="8dp"
+        android:inputType="text"
+        android:layout_marginTop="24dp"/>
+
+    <!-- buttonStart -->
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="START"/>
+
+</RelativeLayout>

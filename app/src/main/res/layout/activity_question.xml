@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".QuestionActivity">
+
+
+
+    <!-- 进度条 -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:progress="0"
+        android:max="100" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+
+
+
+
+    <!-- 提交按钮 -->
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:background="@drawable/select_button_text"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
